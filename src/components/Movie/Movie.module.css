@@ -1,0 +1,28 @@
+@media (min-width: 320px) {
+  .movie {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .moviePoster {
+    width: 240px;
+    height: 300px;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 768px) {
+  .movie {
+    flex-direction: row;
+  }
+
+  .moviePoster {
+    width: 200px;
+  }
+}
+
+.movieTitle {
+  margin: 0;
+}

@@ -1,0 +1,35 @@
+@media (min-width: 320px) {
+  .appContainer {
+    max-width: 800px;
+    min-height: 100%;
+    padding: 10px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .appContainer {
+    padding: 20px;
+  }
+}
+
+.moviesListError {
+  text-align: center;
+}
+.search {
+  display: flex;
+  max-width: 800px;
+  width: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}

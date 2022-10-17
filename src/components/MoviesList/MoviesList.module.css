@@ -1,0 +1,8 @@
+.moviesListTitle {
+  text-align: center;
+}
+
+.moviesList {
+  display: flex;
+  flex-direction: column;
+}
